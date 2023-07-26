@@ -25,7 +25,7 @@
 </head>
 <body class="font-lato">
     <!-- Navbar section -->
-    <header class="container mx-auto py-12">
+    <header class="container max-w-[1440px] mx-auto pt-12 pb-7 lg:py-12">
         <nav class="lg:bg-[#F85559] rounded-[600px] px-7 py-2 lg:px-12 lg:py-7">
             <div class="navbar justify-between lg:navbar p-0 min-h-0">
                 <div class="navbar-start hidden lg:flex">
@@ -58,7 +58,7 @@
                 </div>
                 </div>
                 <div class="dropdown">
-                    <button class="btn btn-square btn-ghost lg:hidden">
+                    <button class="btn btn-square btn-ghost justify-end lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-5 h-5 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
                       </button>
                   </div>
@@ -66,86 +66,90 @@
         </nav>
     </header>
 
-    <main class="container mx-auto">
+    <main class="container max-w-[1440px] mx-auto">
         <!-- Slider area -->
-        <section>
-            <div class="carousel w-full">
-                <div id="slide1" class="carousel-item relative w-full">
+        <section class="px-5 lg:px-0">
+            <div class="carousel w-full z-0">
+                <div id="slide1" class="carousel-item relative w-full rounded-lg overflow-hidden">
                   <img src="./images/banner1.png" class="w-full" />
                   <div class="absolute flex justify-center w-full h-full bg-gradient-to-t from-transparent to-[#121212]">
-                    <div class="flex flex-col gap-y-6 pt-20 text-center text-white">
-                        <h1 class="text-7xl font-extrabold leading-snug">Exotic tastes at your <br> doorstep</h1>
-                        <p class="text-xl font-medium">We supply highly quality organic products</p>
+                    <div class="flex flex-col gap-y-1 pt-3 lg:gap-y-6 lg:pt-20 text-center text-white">
+                        <h1 class="text-2xl font-extrabold leading-tight lg:leading-snug lg:text-7xl">Exotic tastes at your <br> doorstep</h1>
+                        <p class="text-sm font-normal lg:text-xl lg:font-medium ">We supply highly quality organic products</p>
                         <div>
-                            <button class="inline-flex justify-center px-8 py-5 bg-[#F85559] rounded-lg text-xl font-extrabold">Shop Now</button>
+                            <button class="inline-flex justify-center px-5 py-2 mt-2 lg:px-8 lg:py-5 bg-[#F85559] rounded-lg text-lg font-[700] lg:text-xl lg:font-extrabold">Shop Now</button>
                         </div>
                         
                     </div>
                     
                   </div>
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide4" class="btn btn-circle bg-[#121212] border-[#121212] text-white hover:text-[#121212] w-14 h-14 text-2xl font-light">❮</a> 
-                    <a href="#slide2" class="btn btn-circle bg-[#121212] border-[#121212] text-white hover:text-[#121212] w-14 h-14 text-2xl font-light"">❯</a>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-1 right-1 lg:left-5
+                  lg:right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle bg-[#121212] border-[#121212] text-white hover:text-[#121212] text-xs lg:w-14 lg:h-14 lg:text-2xl font-light">❮</a> 
+                    <a href="#slide2" class="btn btn-circle bg-[#121212] border-[#121212] text-white hover:text-[#121212] text-xs lg:w-14 lg:h-14 lg:text-2xl font-light"">❯</a>
                   </div>
                 </div> 
-                <div id="slide2" class="carousel-item relative w-full">
+                <div id="slide2" class="carousel-item relative w-full rounded-lg overflow-hidden">
                   <img src="./images/banner2.png" class="w-full" />
                   <div class="absolute flex justify-center w-full h-full bg-gradient-to-t from-transparent to-[#121212]">
-                    <div class="flex flex-col gap-y-6 pt-20 text-center text-white">
-                        <h1 class="text-7xl font-extrabold leading-snug">Exotic tastes at your <br> doorstep</h1>
-                        <p class="text-xl font-medium">We supply highly quality organic products</p>
+                    <div class="flex flex-col gap-y-1 pt-3 lg:gap-y-6 lg:pt-20 text-center text-white">
+                        <h1 class="text-2xl font-extrabold leading-tight lg:leading-snug lg:text-7xl">Exotic tastes at your <br> doorstep</h1>
+                        <p class="text-sm font-normal lg:text-xl lg:font-medium ">We supply highly quality organic products</p>
                         <div>
-                            <button class="inline-flex justify-center px-8 py-5 bg-[#F85559] rounded-lg text-xl font-extrabold">Shop Now</button>
+                            <button class="inline-flex justify-center px-5 py-2 mt-2 lg:px-8 lg:py-5 bg-[#F85559] rounded-lg text-lg font-[700] lg:text-xl lg:font-extrabold">Shop Now</button>
                         </div>
                         
                     </div>
                     
                   </div>
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide1" class="btn btn-circle bg-[#121212] border-[#121212] text-white hover:text-[#121212] w-14 h-14 text-2xl font-light">❮</a> 
-                    <a href="#slide3" class="btn btn-circle bg-[#121212] border-[#121212] text-white hover:text-[#121212] w-14 h-14 text-2xl font-light"">❯</a>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-1 right-1 lg:left-5
+                  lg:right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle bg-[#121212] border-[#121212] text-white hover:text-[#121212] text-xs lg:w-14 lg:h-14 lg:text-2xl font-light">❮</a> 
+                    <a href="#slide3" class="btn btn-circle bg-[#121212] border-[#121212] text-white hover:text-[#121212] text-xs lg:w-14 lg:h-14 lg:text-2xl font-light"">❯</a>
                   </div>
                 </div> 
-                <div id="slide3" class="carousel-item relative w-full">
+                <div id="slide3" class="carousel-item relative w-full rounded-lg overflow-hidden">
                   <img src="./images/banner3.png" class="w-full" />
                   <div class="absolute flex justify-center w-full h-full bg-gradient-to-t from-transparent to-[#121212]">
-                    <div class="flex flex-col gap-y-6 pt-20 text-center text-white">
-                        <h1 class="text-7xl font-extrabold leading-snug">Exotic tastes at your <br> doorstep</h1>
-                        <p class="text-xl font-medium">We supply highly quality organic products</p>
+                    <div class="flex flex-col gap-y-1 pt-3 lg:gap-y-6 lg:pt-20 text-center text-white">
+                        <h1 class="text-2xl font-extrabold leading-tight lg:leading-snug lg:text-7xl">Exotic tastes at your <br> doorstep</h1>
+                        <p class="text-sm font-normal lg:text-xl lg:font-medium ">We supply highly quality organic products</p>
                         <div>
-                            <button class="inline-flex justify-center px-8 py-5 bg-[#F85559] rounded-lg text-xl font-extrabold">Shop Now</button>
+                            <button class="inline-flex justify-center px-5 py-2 mt-2 lg:px-8 lg:py-5 bg-[#F85559] rounded-lg text-lg font-[700] lg:text-xl lg:font-extrabold">Shop Now</button>
                         </div>
                         
                     </div>
                     
                   </div>
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide2" class="btn btn-circle bg-[#121212] border-[#121212] text-white hover:text-[#121212] w-14 h-14 text-2xl font-light">❮</a> 
-                    <a href="#slide4" class="btn btn-circle bg-[#121212] border-[#121212] text-white hover:text-[#121212] w-14 h-14 text-2xl font-light"">❯</a>
+                  <<div class="absolute flex justify-between transform -translate-y-1/2 left-1 right-1 lg:left-5
+                  lg:right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle bg-[#121212] border-[#121212] text-white hover:text-[#121212] text-xs lg:w-14 lg:h-14 lg:text-2xl font-light">❮</a> 
+                    <a href="#slide4" class="btn btn-circle bg-[#121212] border-[#121212] text-white hover:text-[#121212] text-xs lg:w-14 lg:h-14 lg:text-2xl font-light"">❯</a>
                   </div>
                 </div> 
-                <div id="slide4" class="carousel-item relative w-full">
+                <div id="slide4" class="carousel-item relative w-full rounded-lg overflow-hidden">
                   <img src="./images/banner4.png" class="w-full" />
                   <div class="absolute flex justify-center w-full h-full bg-gradient-to-t from-transparent to-[#121212]">
-                    <div class="flex flex-col gap-y-6 pt-20 text-center text-white">
-                        <h1 class="text-7xl font-extrabold leading-snug">Exotic tastes at your <br> doorstep</h1>
-                        <p class="text-xl font-medium">We supply highly quality organic products</p>
+                    <div class="flex flex-col gap-y-1 pt-3 lg:gap-y-6 lg:pt-20 text-center text-white">
+                        <h1 class="text-2xl font-extrabold leading-tight lg:leading-snug lg:text-7xl">Exotic tastes at your <br> doorstep</h1>
+                        <p class="text-sm font-normal lg:text-xl lg:font-medium ">We supply highly quality organic products</p>
                         <div>
-                            <button class="inline-flex justify-center px-8 py-5 bg-[#F85559] rounded-lg text-xl font-extrabold">Shop Now</button>
+                            <button class="inline-flex justify-center px-5 py-2 mt-2 lg:px-8 lg:py-5 bg-[#F85559] rounded-lg text-lg font-[700] lg:text-xl lg:font-extrabold">Shop Now</button>
                         </div>
                         
                     </div>
                     
                   </div>
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide3" class="btn btn-circle bg-[#121212] border-[#121212] text-white hover:text-[#121212] w-14 h-14 text-2xl font-light">❮</a> 
-                    <a href="#slide1" class="btn btn-circle bg-[#121212] border-[#121212] text-white hover:text-[#121212] w-14 h-14 text-2xl font-light"">❯</a>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-1 right-1 lg:left-5
+                  lg:right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle bg-[#121212] border-[#121212] text-white hover:text-[#121212] text-xs lg:w-14 lg:h-14 lg:text-2xl font-light">❮</a> 
+                    <a href="#slide1" class="btn btn-circle bg-[#121212] border-[#121212] text-white hover:text-[#121212] text-xs lg:w-14 lg:h-14 lg:text-2xl font-light"">❯</a>
                   </div>
                 </div>
               </div>
 
-              <div class="rounded-lg shadow-xl flex justify-around mx-auto w-5/6 relative -mt-32 bg-white">
-                <div class="card py-12">
+              <div class="hidden lg:flex rounded-lg shadow-xl justify-around flex-wrap mx-auto w-5/6 relative -mt-32 bg-white z-10">
+                <div class="card w-auto py-12">
                     <figure class="px-10">
                       <img src="./images/fruit1.png" alt="Grapes" class="rounded-xl" />
                     </figure>
@@ -153,7 +157,7 @@
                       <h3 class="card-title">Grapes</h3>
                     </div>
                   </div>
-                  <div class="card py-12">
+                  <div class="card w-auto py-12">
                     <figure class="px-10">
                       <img src="./images/fruit2.png" alt="Orange" class="rounded-xl" />
                     </figure>
@@ -161,7 +165,7 @@
                       <h3 class="card-title">Orange</h3>
                     </div>
                   </div>
-                  <div class="card py-12">
+                  <div class="card w-auto py-12">
                     <figure class="px-10">
                       <img src="./images/fruit3.png" alt="Mango" class="rounded-xl" />
                     </figure>
@@ -169,7 +173,7 @@
                       <h3 class="card-title">Mango</h3>
                     </div>
                   </div>
-                  <div class="card py-12">
+                  <div class="card w-auto py-12">
                     <figure class="px-10">
                       <img src="./images/fruit4.png" alt="Strawberry" class="rounded-xl" />
                     </figure>
@@ -177,7 +181,7 @@
                       <h3 class="card-title">Strawberry</h3>
                     </div>
                   </div>
-                  <div class="card py-12">
+                  <div class="card w-auto py-12">
                     <figure class="px-10">
                       <img src="./images/fruit5.png" alt="Pomegranate" class="rounded-xl" />
                     </figure>
