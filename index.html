@@ -65,8 +65,9 @@
               </div>
         </nav>
     </header>
-
+    <!-- main container -->
     <main class="container max-w-[1440px] mx-auto">
+
         <!-- Slider area -->
         <section class="px-5 lg:px-0">
             <div class="carousel w-full z-0">
@@ -195,38 +196,38 @@
         <!--  -->
 
         <!-- Deal of the day section -->
-        <section class="mb-[140px]">
+        <section class="mb-[100px]">
             <div class="pb-12">
-                <div class="flex justify-between">
-                    <div class="w-5/12">
-                        <h1 class="text-[#121212] text-5xl font-extrabold pb-6">Deal of the day</h1>
-                        <p class="text-[#12121299] text-base font-medium leading-7">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                <div class="flex justify-between flex-col gap-5 lg:flex-row px-12 lg:px-0 ">
+                    <div class="w-full lg:w-5/12 text-center lg:text-left">
+                        <h1 class="text-[#121212] text-xl lg:text-5xl font-extrabold pb-2 pt-7 lg:pb-6">Deal of the day</h1>
+                        <p class="text-[#12121299] text-base font-medium leading-6 lg:leading-7">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
                     </div>
                     <div class="flex items-center">
                         <div class="grid grid-flow-col gap-6 text-center auto-cols-max ">
-                            <div class="flex flex-col gap-2">
-                              <span class="countdown font-mono text-5xl font-extrabold text-[#121212]">
+                            <div class="flex flex-col gap-2 items-center">
+                              <span class="countdown text-[29px] lg:text-5xl font-extrabold text-[#121212]">
                                 <span style="--value:29;"></span>
                               </span>
                               <span class="text-base font-medium text-[#12121299]">Days</span>
                             </div>
                             <div class="h-4 border-r-[4px] border-dotted border-[#121212] mt-4"></div>
-                            <div class="flex flex-col gap-2">
-                              <span class="countdown font-mono text-5xl font-extrabold text-[#121212]">
+                            <div class="flex flex-col gap-2 items-center">
+                              <span class="countdown text-[29px] lg:text-5xl font-extrabold text-[#121212]">
                                 <span style="--value:15;"></span>
                               </span>
                               <span class="text-base font-medium text-[#12121299]">Hours</span>
                             </div> 
                             <div class="h-4 border-r-[4px] border-dotted border-[#121212] mt-4"></div>
-                            <div class="flex flex-col gap-2">
-                              <span class="countdown font-mono text-5xl font-extrabold text-[#121212]">
+                            <div class="flex flex-col gap-2 items-center">
+                              <span class="countdown text-[29px] lg:text-5xl font-extrabold text-[#121212]">
                                 <span style="--value:25;"></span>
                               </span>
                               <span class="text-base font-medium text-[#12121299]">Minutes</span>
                             </div> 
                             <div class="h-4 border-r-[4px] border-dotted border-[#121212] mt-4"></div>
-                            <div class="flex flex-col gap-2">
-                              <span class="countdown font-mono text-5xl font-extrabold text-[#121212]">
+                            <div class="flex flex-col gap-2 items-center">
+                              <span class="countdown text-[29px] lg:text-5xl font-extrabold text-[#121212]">
                                 <span style="--value:08;"></span>
                               </span>
                               <span class="text-base font-medium text-[#12121299]">Seconds</span>
@@ -235,12 +236,10 @@
                     </div>
                 </div>
             </div>
-
-            <!-- Deal of the day card section -->
-            
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-12 gap-6">
+            <!-- Deal of the day card section -->         
+            <div class="grid grid-cols-1 px-5 lg:px-0 md:grid-cols-2 lg:grid-cols-4 mb-12 gap-6">
                 <!-- card 1 -->
-                <div class="card border-[1px] rounded-lg border-[#1212121A]">
+                  <div class="card border-[1px] rounded-lg border-[#1212121A]">
                     <figure class="px-10 pt-10">
                       <img src="./images/fruit6.png" alt="Apples" class="rounded-lg" />
                     </figure>
@@ -327,6 +326,78 @@
         </section>
         <!--  -->
 
+        <!-- Team section -->
+        <section class="bg-[url('./images/team.png')] flex flex-col">
+            <div class="bg-[#121212B3]">
+                <!-- Team section text content -->
+                <div class="text-center pt-[120px] space-y-6 w-5/12 mx-auto">
+                    <h1 class="text-5xl font-extrabold text-white">Meet the team section</h1>
+                    <p class="text-base text-white font-medium">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                </div>
+
+                <!-- Team section memeber area -->
+                <div class="grid grid-cols-1 mt-12 px-52 pb-20 md:grid-cols-2 lg:grid-cols-4">
+                    <div class="card">
+                        <figure class="px-10">
+                          <img src="./images/member1.png" alt="Awlad Hossain" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title text-2xl font-bold text-white">Awlad Hossain</h2>
+                          <p class="text-base font-medium text-white">Fruits Expert</p>
+                          <div class="flex gap-3 mt-4">
+                            <a href="https://facebook.com"><img src="./images/facebook 1.png" alt=""></a>
+                            <a href="https://twitter.com"><img src="./images/twitter (1) 1.png" alt=""></a>
+                            <a href="https://linkedin.com"><img src="./images/linkedin 1.png" alt=""></a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <figure class="px-10">
+                          <img src="./images/member2.png" alt="Safia Chowdhury" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title text-2xl font-bold text-white">Safia Chowdhury</h2>
+                          <p class="text-base font-medium text-white">Fruits Expert</p>
+                          <div class="flex gap-3 mt-4">
+                            <a href="https://facebook.com"><img src="./images/facebook 1.png" alt=""></a>
+                            <a href="https://twitter.com"><img src="./images/twitter (1) 1.png" alt=""></a>
+                            <a href="https://linkedin.com"><img src="./images/linkedin 1.png" alt=""></a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <figure class="px-10">
+                          <img src="./images/member3.png" alt="Rokib Hossain" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title text-2xl font-bold text-white">Rokib Hossain</h2>
+                          <p class="text-base font-medium text-white">Fruits Expert</p>
+                          <div class="flex gap-3 mt-4">
+                            <a href="https://facebook.com"><img src="./images/facebook 1.png" alt=""></a>
+                            <a href="https://twitter.com"><img src="./images/twitter (1) 1.png" alt=""></a>
+                            <a href="https://linkedin.com"><img src="./images/linkedin 1.png" alt=""></a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <figure class="px-10">
+                          <img src="./images/member4.png" alt="Chaity" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title text-2xl font-bold text-white">Chaity</h2>
+                          <p class="text-base font-medium text-white">Fruits Expert</p>
+                          <div class="flex gap-3 mt-4">
+                            <a href="https://facebook.com"><img src="./images/facebook 1.png" alt=""></a>
+                            <a href="https://twitter.com"><img src="./images/twitter (1) 1.png" alt=""></a>
+                            <a href="https://linkedin.com"><img src="./images/linkedin 1.png" alt=""></a>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            
+        </section>
+        <!--  -->
 
 
     </main>
